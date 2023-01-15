@@ -24,6 +24,7 @@ before calling scanf.
 lea rdi, [formatString]  
 lea rsi, [text3]  
 call printf  
+
 In the above block, we 
 1. Load the format of the string into _register rdi_ 
 2. And the text that we want to print into _regsiter rsi_ before calling printf.
