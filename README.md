@@ -10,10 +10,11 @@ _extern_ **function_name** : Is used to indicate that **function_name** is an ex
 
 #### Short Explanation:
 
-mov rax, 0
-lea rdi, [format]
-lea rsi, [number]
-call scanf
+mov rax, 0  
+lea rdi, [format]  
+lea rsi, [number]  
+call scanf  
+
 In the above block we 
 1. Load 0 into _register rax_
 2. Load the format of the data to be scanned (in this case an integer) into _register rdi_ 
