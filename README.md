@@ -20,10 +20,10 @@ In the above block we
 2. Load the format of the data to be scanned (in this case an integer) into _register rdi_ 
 3. And the variable in which we want to store the scanned value (in this case number) into register rsi
 before calling scanf.
-
-lea rdi, [formatString]
-lea rsi, [text3]
-call printf
+  
+lea rdi, [formatString]  
+lea rsi, [text3]  
+call printf  
 In the above block, we 
 1. Load the format of the string into _register rdi_ 
 2. And the text that we want to print into _regsiter rsi_ before calling printf.
