@@ -1,6 +1,6 @@
 # Simple-x86-64-Assembly-Program
 
-try.asm is a simple program written in x86-64 assembly language which takes a number and a string as input from the user’s console and then prints the same number and same string to the user’s console.
+`try1.asm` is a simple program written in x86-64 assembly language which takes a number and a string as input from the user’s console and then prints the same number and same string to the user’s console.
 
 _section.data_ : Is used to define all fixed data (data that won't change later on in the code)  
 _section.bss_ : Is used to define all variable data (data that might change later on in the code)  
